@@ -1,0 +1,25 @@
+.number {
+    margin-left: 25px;
+    align-items:center;
+    display: inline;
+    padding: 4,0px;
+    }
+
+.btn {
+    background-color: rgb(185, 35, 178);
+    border-radius: 35px;
+    transition-duration: 0.4s;
+    width: 30px;
+    height: 30px;
+    margin-top: 180px;
+}
+
+.btn:focus
+{outline:none }
+
+
+.btn:hover {
+    cursor:pointer;
+    background-color: rgba(116, 196, 25, 0.945) ;
+    color: rgb(255, 255, 255)
+}

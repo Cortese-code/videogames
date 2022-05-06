@@ -1,0 +1,36 @@
+.logo {
+    width:140px;
+    float: left;
+    margin-left: 10px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px; 
+    font-family: 'Rancho', cursive;
+    transition-duration: 0.4s
+  }
+
+  .logo:hover{
+    color: rgba(255, 0, 170, 0.959) ;
+  }
+  
+  .created {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Rancho', cursive;
+    transition-duration: 0.4s
+  }
+  .created:hover{
+    color: rgba(255, 0, 170, 0.959) ;
+  }
+  .nav{
+    right: inherit;
+  }
+  
+  .header {
+    overflow: hidden;
+    height: 80px;
+    background-color:  rgba(255, 0, 170, 0.705);
+  }

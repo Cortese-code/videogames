@@ -1,0 +1,105 @@
+
+*{box-sizing:border-box;}
+
+.form {
+    width:700px;
+	height: 660x;
+	padding: 35px;
+	margin: 5px;
+	background:rgba(123, 77, 175, 0.747);
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right:auto;
+	text-shadow: 1px 1px 2px rgba(235, 129, 129, 0.274);
+}
+
+.input{
+	outline: none;
+}
+
+.title{
+font-size: 23px;
+color: #fff;
+font-family:  Geneva, Tahoma, sans-serif;
+}  
+
+label {
+	margin: 5px;
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+	color: #fff;
+	outline: none;
+}
+.error{
+	color:rgb(243, 0, 0);
+	margin-top: 4px;
+	font-size: 15px;
+}
+
+.types-s{
+	display: flex;
+	color: red;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+ 
+
+.bottom{
+	background-color: rgb(163, 111, 212);
+	border-radius: 5px;
+	padding: 8px;
+	color: rgb(243, 231, 255) ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+    cursor:pointer 
+} 
+
+.atras{
+	background-color: rgb(161, 112, 206);
+	border-radius: 5px;
+	color: rgb(243, 231, 255) ;
+	margin-right: 20px;
+	cursor:pointer;
+	padding: 8px;
+}
+
+button{
+	align-content: center;
+	color: white;
+	margin-top: 20px;	
+}
+
+   .temp{
+    color:rgb(238, 76, 76);
+    /* border-radius: 4px;
+    color:rgb(14, 13, 13);
+    background: rgb(221, 221, 221);
+    font-size: 15px;
+    width: 170px;
+    height: 30px;
+    grid-row: 7/8;
+    grid-column: 1/-1;
+    margin: auto;
+    padding-top: 15px;
+    box-shadow: 0px 10px 10px black */;
+  } 
+  
+  .botonX{
+    margin-left: 2px;
+    color: white;
+    background: rgba(112, 105, 105, 0.63);
+  } 
+
+  .plat-div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width:650px;
+    border-radius: 10px;
+    background-color: rgba(123, 77, 175, 0.89);
+}
+
